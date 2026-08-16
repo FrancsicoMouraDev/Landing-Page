@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Landig Page</title>
+</head>
+
+<body>
+
+    
+
+    <div id="background" class="bg-white w-full h-screen overflow-x-hidden ">
+
+        <nav id="Navbar"
+            class="relative top-0 p-4 flex items-center border-b border-black/30 bg-white shadow-xl shadow-black/5">
+
+            <!-- Logo -->
+            <div id="logo" class="ml-4 text-2xl font-bold font-sans cursor-pointer">
+                <h1>FranciscoDev</h1>
+            </div>
+
+            <!-- Navigation -->
+            <div
+                class="absolute left-1/2 -translate-x-1/2 flex items-center gap-x-12 text-xl font-medium font-sans text-black/80">
+
+                <a id="Home"
+                    class="cursor-pointer transition duration-300 hover:font-bold hover:-translate-y-1 hover:text-black">
+                    Home
+                </a>
+
+                <a id="About"
+                    class="cursor-pointer transition duration-300 hover:font-bold hover:-translate-y-1 hover:text-black">
+                    About
+                </a>
+
+                <a id="Projects"
+                    class="cursor-pointer transition duration-300 hover:font-bold hover:-translate-y-1 hover:text-black">
+                    Projects
+                </a>
+
+            </div>
+
+            <!-- CTA -->
+            <div class="ml-auto mr-2 flex items-center gap-x-4">
+
+                <a  id="GithubPageButton"
+                    class="px-5 py-3 bg-white text-black font-bold rounded-xl border border-black/20 transition duration-300 hover:scale-105 cursor-pointer">
+                    GitHub
+                </a>
+
+                <a id="contactButton" href="https://github.com/franciscomouradev"
+                    class="px-5 py-3 bg-black text-white font-bold rounded-xl transition duration-300 hover:scale-105 hover:cursor-pointer">
+                    Get in Touch
+                </a>
+
+            </div>
+        </nav>
+
+        <main id="content">
+            
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
